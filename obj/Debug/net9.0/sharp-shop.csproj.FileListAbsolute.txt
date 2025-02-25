@@ -1,0 +1,15 @@
+C:\Projects\sharp-shop\bin\Debug\net9.0\sharp-shop.exe
+C:\Projects\sharp-shop\bin\Debug\net9.0\sharp-shop.deps.json
+C:\Projects\sharp-shop\bin\Debug\net9.0\sharp-shop.runtimeconfig.json
+C:\Projects\sharp-shop\bin\Debug\net9.0\sharp-shop.dll
+C:\Projects\sharp-shop\bin\Debug\net9.0\sharp-shop.pdb
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.AssemblyInfoInputs.cache
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.AssemblyInfo.cs
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.csproj.CoreCompileInputs.cache
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.sourcelink.json
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.dll
+C:\Projects\sharp-shop\obj\Debug\net9.0\refint\sharp-shop.dll
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.pdb
+C:\Projects\sharp-shop\obj\Debug\net9.0\sharp-shop.genruntimeconfig.cache
+C:\Projects\sharp-shop\obj\Debug\net9.0\ref\sharp-shop.dll
