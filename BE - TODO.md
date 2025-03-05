@@ -2,10 +2,10 @@
 📌 Luna 1: Fundamentele limbajului C# și OOP
 ✅ Învață sintaxa de bază C# (tipuri de date, structuri de control, funcții, clase)
 ✅ Înțelege principiile OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
-✅ FileStream MemoryStream - stocare data / informatii in memorie (JSON based serializare/deserializare)
+    FileStream MemoryStream - stocare data / informatii in memorie (JSON based serializare/deserializare)
 ✅ Explorează colecțiile și generics în C# ()
-✅ Lucrează cu delegates și events <-- lasam pe mai tarziu
-✅ Creează mici proiecte pentru a aplica OOP
+    Lucrează cu delegates și events <-- lasam pe mai tarziu
+    Creează mici proiecte pentru a aplica OOP
 
 📌 Luna 2: Baze de date și ORM
 ✅ Înțelege conceptele de baze de date relaționale (SQL, tabele, relații)
