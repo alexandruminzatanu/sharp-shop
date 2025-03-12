@@ -1,0 +1,12 @@
+D:\SharpShop\SharpShop.ServiceDefaults\bin\Debug\net9.0\SharpShop.ServiceDefaults.deps.json
+D:\SharpShop\SharpShop.ServiceDefaults\bin\Debug\net9.0\SharpShop.ServiceDefaults.dll
+D:\SharpShop\SharpShop.ServiceDefaults\bin\Debug\net9.0\SharpShop.ServiceDefaults.pdb
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.csproj.AssemblyReference.cache
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.AssemblyInfoInputs.cache
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.AssemblyInfo.cs
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.dll
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\refint\SharpShop.ServiceDefaults.dll
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\SharpShop.ServiceDefaults.pdb
+D:\SharpShop\SharpShop.ServiceDefaults\obj\Debug\net9.0\ref\SharpShop.ServiceDefaults.dll
