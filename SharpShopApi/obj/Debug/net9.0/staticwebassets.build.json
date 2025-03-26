@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ewyhuCfDioJdELoCVP1JAZZj6N5GyaaP5+1RdHcuuEI=",
+  "Source": "SharpShopApi",
+  "BasePath": "_content/SharpShopApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

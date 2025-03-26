@@ -8,19 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alexa\\.nuget\\packages\\": {}
+    "C:\\Users\\Aminzata\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShopBlueprints\\SharpShopBlueprints.csproj",
+      "projectUniqueName": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShopBlueprints\\SharpShopBlueprints.csproj",
       "projectName": "SharpShopBlueprints",
-      "projectPath": "C:\\Projects\\sharp-shop\\SharpShopBlueprints\\SharpShopBlueprints.csproj",
-      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\sharp-shop\\SharpShopBlueprints\\obj\\",
+      "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShopBlueprints\\SharpShopBlueprints.csproj",
+      "packagesPath": "C:\\Users\\Aminzata\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShopBlueprints\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aminzata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +33,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://ap-gda03-s4btt.centric-s4pd.lan:5555/nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://jfrog-artifacts.its.centric.lan/artifactory/api/nuget/v3/Centric-NuGet-Dev": {}
       },
       "frameworks": {
         "net9.0": {

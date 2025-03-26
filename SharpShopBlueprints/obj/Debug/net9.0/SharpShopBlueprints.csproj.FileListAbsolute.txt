@@ -1,0 +1,12 @@
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\bin\Debug\net9.0\SharpShopBlueprints.deps.json
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\bin\Debug\net9.0\SharpShopBlueprints.dll
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\bin\Debug\net9.0\SharpShopBlueprints.pdb
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.AssemblyInfoInputs.cache
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.AssemblyInfo.cs
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.csproj.CoreCompileInputs.cache
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.sourcelink.json
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.dll
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\refint\SharpShopBlueprints.dll
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\SharpShopBlueprints.pdb
+C:\Projects\SharpShop\sharp-shop\SharpShopBlueprints\obj\Debug\net9.0\ref\SharpShopBlueprints.dll

@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\SharpShop\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Projects\\SharpShop\\sharp-shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07450D1F-08E9-9045-A13E-F1BA1AEB1A4F}|SharpShopApi\\SharpShopApi.csproj|c:\\projects\\sharpshop\\sharp-shop\\sharpshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07450D1F-08E9-9045-A13E-F1BA1AEB1A4F}|SharpShopApi\\SharpShopApi.csproj|solutionrelative:sharpshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShopApi\\Program.cs",
+              "RelativeDocumentMoniker": "SharpShopApi\\Program.cs",
+              "ToolTip": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShopApi\\Program.cs",
+              "RelativeToolTip": "SharpShopApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T14:05:19.617Z",
+              "EditorCaption": ""
             }
           ]
         }

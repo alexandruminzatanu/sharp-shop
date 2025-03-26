@@ -5,8 +5,8 @@ namespace Projects;
 [global::System.CodeDom.Compiler.GeneratedCode("Aspire.Hosting", null)]
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage(Justification = "Generated code.")]
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
-public class SharpShop_Presentation
+public class SharpShop_AppHost
 {
-    private SharpShop_Presentation() { }
-    public static string ProjectPath => """C:\Projects\SharpShop\SharpShop.AppHost""";
+    private SharpShop_AppHost() { }
+    public static string ProjectPath => """C:\Projects\SharpShop\sharp-shop\SharpShop.AppHost""";
 }
