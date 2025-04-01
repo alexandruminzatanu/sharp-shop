@@ -12,11 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Web", "SharpShop.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Tests", "SharpShop.Tests\SharpShop.Tests.csproj", "{04FF4B83-F451-2A4F-F5CE-38CC2DF005EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Data", "..\SharpShop.Data\SharpShop.Data.csproj", "{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Data", "SharpShop.Data\SharpShop.Data.csproj", "{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Business", "..\SharpShop.Business\SharpShop.Business.csproj", "{311672EC-EF9D-4493-BFBB-050BF857C031}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Business", "SharpShop.Business\SharpShop.Business.csproj", "{311672EC-EF9D-4493-BFBB-050BF857C031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Models", "..\SharpShop.Models\SharpShop.Models.csproj", "{A784A048-1366-4A64-AF66-264ADCF2F589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpShop.Models", "SharpShop.Models\SharpShop.Models.csproj", "{A784A048-1366-4A64-AF66-264ADCF2F589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

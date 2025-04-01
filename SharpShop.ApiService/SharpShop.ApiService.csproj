@@ -7,16 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SharpShop.Business\SharpShop.Business.csproj" />
-    <ProjectReference Include="..\..\SharpShop.Models\SharpShop.Models.csproj" />
-    <ProjectReference Include="..\SharpShop.ServiceDefaults\SharpShop.ServiceDefaults.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpShop.Business\SharpShop.Business.csproj" />
+    <ProjectReference Include="..\SharpShop.Models\SharpShop.Models.csproj" />
+    <ProjectReference Include="..\SharpShop.ServiceDefaults\SharpShop.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

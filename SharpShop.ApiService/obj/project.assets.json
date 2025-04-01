@@ -994,6 +994,9 @@
       "SharpShop.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SharpShop.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SharpShop.Data.dll": {}
         },
@@ -2375,18 +2378,18 @@
     },
     "SharpShop.Business/1.0.0": {
       "type": "project",
-      "path": "../../SharpShop.Business/SharpShop.Business.csproj",
-      "msbuildProject": "../../SharpShop.Business/SharpShop.Business.csproj"
+      "path": "../SharpShop.Business/SharpShop.Business.csproj",
+      "msbuildProject": "../SharpShop.Business/SharpShop.Business.csproj"
     },
     "SharpShop.Data/1.0.0": {
       "type": "project",
-      "path": "../../SharpShop.Data/SharpShop.Data.csproj",
-      "msbuildProject": "../../SharpShop.Data/SharpShop.Data.csproj"
+      "path": "../SharpShop.Data/SharpShop.Data.csproj",
+      "msbuildProject": "../SharpShop.Data/SharpShop.Data.csproj"
     },
     "SharpShop.Models/1.0.0": {
       "type": "project",
-      "path": "../../SharpShop.Models/SharpShop.Models.csproj",
-      "msbuildProject": "../../SharpShop.Models/SharpShop.Models.csproj"
+      "path": "../SharpShop.Models/SharpShop.Models.csproj",
+      "msbuildProject": "../SharpShop.Models/SharpShop.Models.csproj"
     },
     "SharpShop.ServiceDefaults/1.0.0": {
       "type": "project",
@@ -2440,14 +2443,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
+              "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj"
+            },
+            "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
+              "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
+            },
             "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
               "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
-            },
-            "C:\\Projects\\SharpShop\\SharpShop.Business\\SharpShop.Business.csproj": {
-              "projectPath": "C:\\Projects\\SharpShop\\SharpShop.Business\\SharpShop.Business.csproj"
-            },
-            "C:\\Projects\\SharpShop\\SharpShop.Models\\SharpShop.Models.csproj": {
-              "projectPath": "C:\\Projects\\SharpShop\\SharpShop.Models\\SharpShop.Models.csproj"
             }
           }
         }

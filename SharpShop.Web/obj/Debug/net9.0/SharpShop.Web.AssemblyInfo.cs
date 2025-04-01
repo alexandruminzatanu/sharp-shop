@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+820f77846101015afe90e9b3cf74d615b700643f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c417fd329a94c303b5b4deb13f5cdce0f49ea367")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
