@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ca51bdc6-96ad-4e08-a90d-182ae7dffc48")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4dc6e005-531f-4bbe-9fea-a502c725fad1")]
 [assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tool" +
     "s\\dcp.exe")]
 [assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tool" +
@@ -25,7 +25,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b4849d9090d08f187322ee8cba91e7a25306ae8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+820f77846101015afe90e9b3cf74d615b700643f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

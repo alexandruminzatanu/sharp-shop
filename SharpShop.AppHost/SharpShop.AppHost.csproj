@@ -8,16 +8,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
-    <UserSecretsId>ca51bdc6-96ad-4e08-a90d-182ae7dffc48</UserSecretsId>
+    <UserSecretsId>4dc6e005-531f-4bbe-9fea-a502c725fad1</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+    <ProjectReference Include="..\SharpShop.ApiService\SharpShop.ApiService.csproj" />
+    <ProjectReference Include="..\SharpShop.Web\SharpShop.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SharpShop.ServiceDefaults\SharpShop.ServiceDefaults.csproj" />
-    <ProjectReference Include="..\SharpShopApi\SharpShopApi.csproj" />
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

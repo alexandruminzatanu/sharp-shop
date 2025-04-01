@@ -1,6 +1,0 @@
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.csproj.AssemblyReference.cache
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.AssemblyInfoInputs.cache
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.AssemblyInfo.cs
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.csproj.CoreCompileInputs.cache
-C:\Projects\SharpShop\sharp-shop\SharpShopBusiness\obj\Debug\net9.0\SharpShopBusiness.sourcelink.json

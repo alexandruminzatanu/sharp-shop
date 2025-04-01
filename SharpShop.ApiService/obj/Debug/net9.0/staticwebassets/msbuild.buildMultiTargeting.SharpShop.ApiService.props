@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SharpShop.ApiService.props" />
+</Project>

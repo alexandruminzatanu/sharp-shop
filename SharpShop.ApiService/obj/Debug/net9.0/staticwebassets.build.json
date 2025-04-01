@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mGg4LojdeGHtGTJ3TkV3zYnIN86h0MipW4w5rzS0XLc=",
+  "Source": "SharpShop.ApiService",
+  "BasePath": "_content/SharpShop.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
