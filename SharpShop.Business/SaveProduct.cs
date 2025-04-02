@@ -1,11 +1,13 @@
 ﻿
+using SharpShop.Data;
+
 namespace SharpShop.Business
 {
     public class SaveProduct
     {
-        public void Save(string product)
+        public static string Save(string product)
         {
-            // Save product to database
+            return PostProduct.Save(product);
         }
     }
 }

@@ -2,10 +2,10 @@
 {
     public class GetProductRepository
     {
-        public static string Get(string prductName)
+        public static string Get(string productName)
         {
             // Define file path
-            string filePath = $"C:/Projects/SharpShop/sharp-shop/SharpShop.Data/{prductName}.json";
+            string filePath = $"C:/Projects/SharpShop/sharp-shop/SharpShop.Data/DB/{productName}.json";
 
             // Read JSON string from the file
             if (File.Exists(filePath))
@@ -16,7 +16,6 @@
             }
             else
             {
-                Console.WriteLine("File not found!");
                 return "";
             }
         }

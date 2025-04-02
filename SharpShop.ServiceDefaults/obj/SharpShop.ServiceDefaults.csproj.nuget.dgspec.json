@@ -55,31 +55,31 @@
           "dependencies": {
             "Microsoft.Extensions.Http.Resilience": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.3.0, )"
             },
             "Microsoft.Extensions.ServiceDiscovery": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.1.0, )"
             },
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.11.2, )"
             },
             "OpenTelemetry.Extensions.Hosting": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.11.2, )"
             },
             "OpenTelemetry.Instrumentation.AspNetCore": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.11.1, )"
             },
             "OpenTelemetry.Instrumentation.Http": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.11.1, )"
             },
             "OpenTelemetry.Instrumentation.Runtime": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.11.1, )"
             }
           },
           "imports": [

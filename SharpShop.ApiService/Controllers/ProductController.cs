@@ -11,8 +11,14 @@ namespace SharpShop.ApiService.Controllers
 
         [HttpGet(Name = "product")]
         public string Get([FromQuery] string name)
-        {
+        {   
             return GetProduct.Get(name);
+        }
+
+        [HttpPost(Name = "product")]
+        public string Post([FromBody] string name)
+        {
+            return SaveProduct.Save(name);
         }
     }
 }

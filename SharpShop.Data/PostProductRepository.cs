@@ -3,15 +3,15 @@
    public class PostProduct
     {
         // save a json to a file on disk
-        public void Save(string product, string productName)
+        public static string Save(string productName)
         {
-           // string jsonString = JsonSerializer.Serialize(person, new JsonSerializerOptions { WriteIndented = true });
+            // string jsonString = JsonSerializer.Serialize(person, new JsonSerializerOptions { WriteIndented = true });
 
-            string filePath = $"{productName}.json";
+            string filePath = $"C:/Projects/SharpShop/sharp-shop/SharpShop.Data/DB/{productName}.json";
 
-            File.WriteAllText(filePath, product);
+            File.WriteAllText(filePath, productName);
 
-            Console.WriteLine($"JSON saved to {filePath}");
+            return $"JSON saved to {filePath}";
 
         }
 

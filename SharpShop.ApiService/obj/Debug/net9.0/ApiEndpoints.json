@@ -25,5 +25,32 @@
       }
     ],
     "EndpointName": "product"
+  },
+  {
+    "ContainingType": "SharpShop.ApiService.Controllers.ProductController",
+    "Method": "Post",
+    "RelativePath": "Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "product"
   }
 ]

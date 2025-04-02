@@ -1,14 +1,14 @@
 🛣️ Roadmap Backend Development cu .NET (6 luni)
 📌 Luna 1: Fundamentele limbajului C# și OOP
-✅⬜ Învață sintaxa de bază C# (tipuri de date, structuri de control, funcții, clase)
+✅ Învață sintaxa de bază C# (tipuri de date, structuri de control, funcții, clase)
 ✅ Înțelege principiile OOP (Encapsulation, Inheritance, Polymorphism, Abstraction)
-⬜ FileStream MemoryStream - stocare data / informatii in memorie (JSON based serializare/deserializare)
+✅ FileStream MemoryStream - stocare data / informatii in memorie (JSON based serializare/deserializare)
 ✅ Explorează colecțiile și generics în C# ()
 ⬜ Lucrează cu delegates și events <-- lasam pe mai tarziu
-⬜ Creează mici proiecte pentru a aplica OOP
+✅ Creează mici proiecte pentru a aplica OOP
 
 📌 Luna 2: Baze de date și ORM
-⬜ Înțelege conceptele de baze de date relaționale (SQL, tabele, relații)
+✅ Înțelege conceptele de baze de date relaționale (SQL, tabele, relații)
 ⬜ Învață despre ACID și tranzacții
 ⬜ Familiarizează-te cu LINQ pentru interogări eficiente
 ⬜ Studiază ORM-uri: Entity Framework (Database First vs. Code First)
@@ -44,11 +44,11 @@
 ⬜ Construiește un proiect full-stack pentru portofoliu, integrând toate cunoștințele dobândite
 
 🎯 La finalul celor 6 luni vei putea:
- ◼ Să scrii cod backend curat, bine structurat și performant
- ◼ Să creezi API-uri REST și să înțelegi Microservices
- ◼ Să optimizezi interogările bazei de date și să folosești un ORM eficient
- ◼ Să implementezi securitate și bune practici în codul tău
- ◼ Să configurezi CI/CD și să aplici DevOps pentru livrări rapide
+◼ Să scrii cod backend curat, bine structurat și performant
+◼ Să creezi API-uri REST și să înțelegi Microservices
+◼ Să optimizezi interogările bazei de date și să folosești un ORM eficient
+◼ Să implementezi securitate și bune practici în codul tău
+◼ Să configurezi CI/CD și să aplici DevOps pentru livrări rapide
 
 Acest roadmap îți oferă o direcție clară! 🚀 Dacă ai nevoie de resurse pentru fiecare etapă sau vrei să-l ajustez, spune-mi! 😊
 
@@ -63,14 +63,13 @@ Acest roadmap îți oferă o direcție clară! 🚀 Dacă ai nevoie de resurse p
 //
 
 Comparison of Collections
-Collection	        Ordered?	    Duplicates?	   Fast Lookups?	   Best For
-List<T>	            ✅ Yes	         ✅ Yes	       ❌ No	           General-purpose dynamic arrays
-Dictionary<K,V>     ❌ No	         ❌ No	       ✅ Yes (by key)	   Key-value pairs
-Queue<T>	        ✅ Yes (FIFO    ✅ Yes	       ❌ No	           First-come, first-serve processing
-Stack<T>	        ✅ Yes (LIFO)   ✅ Yes	       ❌ No	           Undo/redo operations
-HashSet<T>	        ❌ No	         ❌ No	       ✅ Yes	           Unique elements only
-LinkedList<T>	    ✅ Yes	         ✅ Yes	       ❌ No	           Frequent insertions/deletions
-
+Collection Ordered? Duplicates? Fast Lookups? Best For
+List<T> ✅ Yes ✅ Yes ❌ No General-purpose dynamic arrays
+Dictionary<K,V> ❌ No ❌ No ✅ Yes (by key) Key-value pairs
+Queue<T> ✅ Yes (FIFO ✅ Yes ❌ No First-come, first-serve processing
+Stack<T> ✅ Yes (LIFO) ✅ Yes ❌ No Undo/redo operations
+HashSet<T> ❌ No ❌ No ✅ Yes Unique elements only
+LinkedList<T> ✅ Yes ✅ Yes ❌ No Frequent insertions/deletions
 
 # Basic .NET and C# knowledge – core C# syntax, data types, access modifiers, collections, generics, delegates
 

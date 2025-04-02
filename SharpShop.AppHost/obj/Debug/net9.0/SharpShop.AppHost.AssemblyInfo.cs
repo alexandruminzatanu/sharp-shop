@@ -12,20 +12,21 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4dc6e005-531f-4bbe-9fea-a502c725fad1")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tool" +
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.1.0\\tool" +
     "s\\dcp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tool" +
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.1.0\\tool" +
     "s\\ext\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tool" +
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.1.0\\tool" +
     "s\\ext\\bin\\")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "SharpShop.AppHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\tools\\Aspire" +
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Aminzata\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.1.0\\tools\\Aspire" +
     ".Dashboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c417fd329a94c303b5b4deb13f5cdce0f49ea367")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+113d9659344415f94e485351aa06ef5485262e2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

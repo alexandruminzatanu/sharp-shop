@@ -240,3 +240,4 @@ C:\Projects\SharpShop\sharp-shop\SharpShop.Tests\obj\Debug\net9.0\refint\SharpSh
 C:\Projects\SharpShop\sharp-shop\SharpShop.Tests\obj\Debug\net9.0\SharpShop.Tests.pdb
 C:\Projects\SharpShop\sharp-shop\SharpShop.Tests\obj\Debug\net9.0\SharpShop.Tests.genruntimeconfig.cache
 C:\Projects\SharpShop\sharp-shop\SharpShop.Tests\obj\Debug\net9.0\ref\SharpShop.Tests.dll
+C:\Projects\SharpShop\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\System.IO.Hashing.dll

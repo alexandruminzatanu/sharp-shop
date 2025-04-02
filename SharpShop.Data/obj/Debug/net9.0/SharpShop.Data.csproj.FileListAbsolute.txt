@@ -25,3 +25,5 @@ C:\Projects\SharpShop\sharp-shop\SharpShop.Data\obj\Debug\net9.0\SharpShop.Data.
 C:\Projects\SharpShop\sharp-shop\SharpShop.Data\obj\Debug\net9.0\refint\SharpShop.Data.dll
 C:\Projects\SharpShop\sharp-shop\SharpShop.Data\obj\Debug\net9.0\SharpShop.Data.pdb
 C:\Projects\SharpShop\sharp-shop\SharpShop.Data\obj\Debug\net9.0\ref\SharpShop.Data.dll
+C:\Projects\SharpShop\sharp-shop\SharpShop.Data\bin\Debug\net9.0\SharpShop.Data.runtimeconfig.json
+C:\Projects\SharpShop\sharp-shop\SharpShop.Data\obj\Debug\net9.0\SharpShop.Data.genruntimeconfig.cache
