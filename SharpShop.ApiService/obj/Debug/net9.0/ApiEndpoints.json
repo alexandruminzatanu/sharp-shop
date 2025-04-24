@@ -8,7 +8,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "name",
+        "Name": "productId",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -24,7 +24,7 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "product"
+    "EndpointName": "productId"
   },
   {
     "ContainingType": "SharpShop.ApiService.Controllers.ProductController",
@@ -35,8 +35,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "name",
-        "Type": "System.String",
+        "Name": "saveProduct",
+        "Type": "SharpShop.Models.Base.Product",
         "IsRequired": true
       }
     ],
@@ -51,6 +51,60 @@
         "StatusCode": 200
       }
     ],
-    "EndpointName": "product"
+    "EndpointName": "saveProduct"
+  },
+  {
+    "ContainingType": "SharpShop.ApiService.Controllers.ProductController",
+    "Method": "Put",
+    "RelativePath": "Product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProduct",
+        "Type": "SharpShop.Models.Base.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "updateProduct"
+  },
+  {
+    "ContainingType": "SharpShop.ApiService.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "Product",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "id"
   }
 ]

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SharpShop.Business;
+using SharpShop.Models.Base;
 
 namespace SharpShop.ApiService.Controllers
 {
@@ -9,16 +10,28 @@ namespace SharpShop.ApiService.Controllers
     {
 
 
-        [HttpGet(Name = "product")]
-        public string Get([FromQuery] string name)
+        [HttpGet(Name = "productId")]
+        public string Get([FromQuery] string productId)
         {   
-            return GetProduct.Get(name);
+            return GetProduct.Get(productId);
         }
 
-        [HttpPost(Name = "product")]
-        public string Post([FromBody] string name)
+        [HttpPost(Name = "saveProduct")]
+        public string Post([FromBody] Product saveProduct)
         {
-            return SaveProduct.Save(name);
+            return SaveProduct.Save(saveProduct);
+        }
+
+        [HttpPut(Name = "updateProduct")]
+        public string Put([FromBody] Product updateProduct)
+        {
+            return UpdateProduct.Update(updateProduct);
+        }
+
+        [HttpDelete(Name = "id")]
+        public string Delete([FromQuery] string id)
+        {
+            return DeleteProduct.Delete(id);
         }
     }
 }

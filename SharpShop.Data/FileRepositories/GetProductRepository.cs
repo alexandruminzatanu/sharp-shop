@@ -1,11 +1,11 @@
-﻿namespace SharpShop.Data
+﻿namespace SharpShop.Data.FileRepositories
 {
     public class GetProductRepository
     {
-        public static string Get(string productName)
+        public static string Get(string productId)
         {
             // Define file path
-            string filePath = $"C:/Projects/SharpShop/sharp-shop/SharpShop.Data/DB/{productName}.json";
+            string filePath = $"C:/Projects/SharpShop/sharp-shop/SharpShop.Data/DB/{productId}.json";
 
             // Read JSON string from the file
             if (File.Exists(filePath))
