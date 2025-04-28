@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.ApiService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921cbe1a7a34ec70b78d3b4500bc2fa2472d469a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df17edad903fa5cc76971eace1963921927fc1bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.ApiService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.ApiService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
