@@ -1,12 +1,13 @@
-﻿using SharpShop.Data.FileRepositories;
+﻿using SharpShop.Data.Repositories;
+using SharpShop.Models.Base;
 
 namespace SharpShop.Business
 {
     public class GetProduct
     {
-        public static string Get(string productId)
+        public static Task<Product> Get(int productId)
         {
-            return GetProductRepository.Get(productId);
+            return GetProductDB.Get(productId);
         }
     }
 }

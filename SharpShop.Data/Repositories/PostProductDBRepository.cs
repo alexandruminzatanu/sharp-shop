@@ -1,18 +1,17 @@
 ﻿using SharpShop.Models.Base;
 
-namespace SharpShop.Data
+namespace SharpShop.Data.Repositories
 {
    public class PostProductDB
     {
-       async public static void Save(Product product)
+       async public static Task<Product> Save(Product product)
         {
             using (var context = new SharpShopContext())
             {
                 context.Add(product);
                 await context.SaveChangesAsync();
+                return product;
             }
-
-
         }
 
     }

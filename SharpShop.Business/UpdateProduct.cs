@@ -1,14 +1,13 @@
-﻿using SharpShop.Data.FileRepositories;
+﻿using SharpShop.Data.Repositories;
 using SharpShop.Models.Base;
 
 namespace SharpShop.Business
 {
-    public class SaveProduct
+    public class UpdateProduct
     {
-        public static string Save(Product product)
-        {     // make controllers and services for every type of products you have
-            // var device = new Electronics(0, "", "",100,1,new Models.Base.Category(0,"",""),2);
-            return PostProductRepository.Save(product);
+        public static Task<Product> Update(Product product) {
+
+            return PutProductDB.Update(product);
         }
     }
 }

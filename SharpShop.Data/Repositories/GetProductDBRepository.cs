@@ -1,25 +1,22 @@
 ﻿using SharpShop.Models.Base;
 using System.Text.Json;
 
-namespace SharpShop.Data
+namespace SharpShop.Data.Repositories
 {
    public class GetProductDB
     {
-       async public static Task<string> Get(string productId)
+       async public static Task<Product> Get(int productId)
         {
             using (var context = new SharpShopContext())
             {
-                
                 var product = await context.Products.FindAsync(productId);
                 if (product != null)
                 {
-                    string jsonString = JsonSerializer.Serialize(product, new JsonSerializerOptions { WriteIndented = true });
-                    return jsonString;
-
+                    return product;
                 }
                 else
                 {
-                    return "";
+                    throw new Exception("Product not found");
                 }
             }
 

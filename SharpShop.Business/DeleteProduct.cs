@@ -1,12 +1,12 @@
-﻿using SharpShop.Data.FileRepositories;
+﻿using SharpShop.Data.Repositories;
 
 namespace SharpShop.Business
 {
     public class DeleteProduct
     {
-        public static string Delete(string productId)
+        public static Task Delete(int productId)
         {    
-            return DeleteProductRepository.Delete(productId);
+            return DeleteProductDB.Delete(productId);
         }
     }
 }

@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "productId",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "SharpShop.Models.Base.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -42,7 +42,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "SharpShop.Models.Base.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -69,7 +69,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "SharpShop.Models.Base.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -90,18 +90,14 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
+        "Type": "System.Void",
+        "MediaTypes": [],
         "StatusCode": 200
       }
     ],

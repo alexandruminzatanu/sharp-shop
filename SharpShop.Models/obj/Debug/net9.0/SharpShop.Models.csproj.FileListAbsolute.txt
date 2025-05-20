@@ -21,3 +21,15 @@ C:\Projects\SharpShop\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Mod
 C:\Projects\SharpShop\sharp-shop\SharpShop.Models\obj\Debug\net9.0\refint\SharpShop.Models.dll
 C:\Projects\SharpShop\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.pdb
 C:\Projects\SharpShop\sharp-shop\SharpShop.Models\obj\Debug\net9.0\ref\SharpShop.Models.dll
+C:\Projects\sharp-shop\SharpShop.Models\bin\Debug\net9.0\SharpShop.Models.deps.json
+C:\Projects\sharp-shop\SharpShop.Models\bin\Debug\net9.0\SharpShop.Models.dll
+C:\Projects\sharp-shop\SharpShop.Models\bin\Debug\net9.0\SharpShop.Models.pdb
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.AssemblyInfoInputs.cache
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.AssemblyInfo.cs
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.csproj.CoreCompileInputs.cache
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.sourcelink.json
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.dll
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\refint\SharpShop.Models.dll
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\SharpShop.Models.pdb
+C:\Projects\sharp-shop\SharpShop.Models\obj\Debug\net9.0\ref\SharpShop.Models.dll

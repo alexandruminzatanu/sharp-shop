@@ -11,7 +11,7 @@ public class SharpShopContext : DbContext
     public SharpShopContext()
     {
         
-        DbPath = "Server=NBKR004508;Database=SharpShop;Trusted_Connection=True;User Id=sa;TrustServerCertificate=True";
+        DbPath = "Server=D6MJY74\\SQLEXPRESS;Database=SharpShop;Trusted_Connection=True;User Id=sa;TrustServerCertificate=True";
     }
 
     // The following configures EF to create a Sqlite database file in the

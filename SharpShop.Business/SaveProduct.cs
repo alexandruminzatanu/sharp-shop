@@ -1,13 +1,13 @@
-﻿using SharpShop.Data.FileRepositories;
+﻿using SharpShop.Data.Repositories;
 using SharpShop.Models.Base;
 
 namespace SharpShop.Business
 {
-    public class UpdateProduct
+    public class SaveProduct
     {
-        public static string Update(Product product)
+        public static Task<Product> Save(Product product)
         {     
-            return PutProductRepository.Put(product);
+            return PostProductDB.Save(product);
         }
     }
 }

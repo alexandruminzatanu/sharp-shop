@@ -505,14 +505,7 @@
         }
       },
       "System.Diagnostics.DiagnosticSource/9.0.0": {},
-      "System.IO.Pipelines/9.0.3": {
-        "runtime": {
-          "lib/net9.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
-          }
-        }
-      },
+      "System.IO.Pipelines/9.0.3": {},
       "System.Threading.RateLimiting/8.0.0": {},
       "SharpShop.ServiceDefaults/1.0.0": {
         "dependencies": {

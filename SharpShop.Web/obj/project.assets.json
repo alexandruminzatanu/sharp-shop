@@ -2045,23 +2045,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aminzata\\.nuget\\packages\\": {},
+    "C:\\Users\\AMinzata\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
+      "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
       "projectName": "SharpShop.Web",
-      "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
-      "packagesPath": "C:\\Users\\Aminzata\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.Web\\obj\\",
+      "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
+      "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aminzata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AMinzata\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2070,17 +2070,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://ap-gda03-s4btt.centric-s4pd.lan:5555/nuget": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://jfrog-artifacts.its.centric.lan/artifactory/api/nuget/v3/Centric-NuGet-Dev": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Projects\\SharpShop\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
+            "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
             }
           }
         }
@@ -2119,7 +2116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

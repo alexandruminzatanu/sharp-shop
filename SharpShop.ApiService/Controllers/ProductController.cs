@@ -11,25 +11,25 @@ namespace SharpShop.ApiService.Controllers
 
 
         [HttpGet(Name = "productId")]
-        public string Get([FromQuery] string productId)
+        public Task<Product> Get([FromQuery] int productId)
         {   
             return GetProduct.Get(productId);
         }
 
         [HttpPost(Name = "saveProduct")]
-        public string Post([FromBody] Product saveProduct)
+        public Task<Product> Post([FromBody] Product saveProduct)
         {
             return SaveProduct.Save(saveProduct);
         }
 
         [HttpPut(Name = "updateProduct")]
-        public string Put([FromBody] Product updateProduct)
+        public Task<Product> Put([FromBody] Product updateProduct)
         {
             return UpdateProduct.Update(updateProduct);
         }
 
         [HttpDelete(Name = "id")]
-        public string Delete([FromQuery] string id)
+        public Task Delete([FromQuery] int id)
         {
             return DeleteProduct.Delete(id);
         }
