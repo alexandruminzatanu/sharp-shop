@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SharpShop.Business\SharpShop.Business.csproj" />
+    <ProjectReference Include="..\SharpShop.Data\SharpShop.Data.csproj" />
     <ProjectReference Include="..\SharpShop.Models\SharpShop.Models.csproj" />
     <ProjectReference Include="..\SharpShop.ServiceDefaults\SharpShop.ServiceDefaults.csproj" />
   </ItemGroup>

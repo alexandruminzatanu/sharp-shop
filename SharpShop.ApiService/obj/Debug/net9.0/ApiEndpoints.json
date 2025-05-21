@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SharpShop.Models.Base.Product",
+        "Type": "SharpShop.Models.Base.ProductModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -36,13 +36,13 @@
     "Parameters": [
       {
         "Name": "saveProduct",
-        "Type": "SharpShop.Models.Base.Product",
+        "Type": "SharpShop.Models.Base.ProductModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SharpShop.Models.Base.Product",
+        "Type": "SharpShop.Models.Base.ProductModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -63,13 +63,13 @@
     "Parameters": [
       {
         "Name": "updateProduct",
-        "Type": "SharpShop.Models.Base.Product",
+        "Type": "SharpShop.Models.Base.ProductModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SharpShop.Models.Base.Product",
+        "Type": "SharpShop.Models.Base.ProductModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

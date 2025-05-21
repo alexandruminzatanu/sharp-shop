@@ -11,14 +11,14 @@
 ✅ Înțelege conceptele de baze de date relaționale (SQL, tabele, relații)
 ⬜ Învață despre ACID și tranzacții
 ⬜ Familiarizează-te cu LINQ pentru interogări eficiente
-⬜ Studiază ORM-uri: Entity Framework (Database First vs. Code First)
+✅ Studiază ORM-uri: Entity Framework (Database First vs. Code First)
 ⬜ Aplică lazy loading, eager loading și explicit loading
 ⬜ Experimentează cu NoSQL (MongoDB, Azure SQL Server)
 
 📌 Luna 3: Arhitectură Software și Principii de Dezvoltare
-⬜ Învață conceptele de software decoupling și low cohesion
-⬜ Explorează design patterns importante (Repository, Unit of Work, Factory, Singleton, Dependency Injection)
-⬜ Înțelege DI/IoC și cum se folosesc container-ele de dependență
+✅ Învață conceptele de software decoupling și low cohesion
+✅ Explorează design patterns importante (Repository, Unit of Work, Factory, Singleton, Dependency Injection)
+✅ Înțelege DI/IoC și cum se folosesc container-ele de dependență
 ⬜ Studiază principiile SOLID, DRY, KISS, YAGNI, SoC, LoD
 ⬜ Aplică Clean Code în proiecte mici
 

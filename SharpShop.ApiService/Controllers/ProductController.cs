@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SharpShop.Business;
+using SharpShop.Business.Product;
 using SharpShop.Models.Base;
 
 namespace SharpShop.ApiService.Controllers
@@ -8,30 +8,35 @@ namespace SharpShop.ApiService.Controllers
     [Route("[controller]")]
     public class ProductController : ControllerBase
     {
+        private readonly IProductService _productService;
+        public ProductController(IProductService productService)
+        {
 
+            _productService = productService;
+        }
 
         [HttpGet(Name = "productId")]
-        public Task<Product> Get([FromQuery] int productId)
+        public Task<ProductModel> Get([FromQuery] int productId)
         {   
-            return GetProduct.Get(productId);
+            return _productService.Get(productId);
         }
 
         [HttpPost(Name = "saveProduct")]
-        public Task<Product> Post([FromBody] Product saveProduct)
+        public Task<ProductModel> Post([FromBody] ProductModel saveProduct)
         {
-            return SaveProduct.Save(saveProduct);
+            return _productService.Save(saveProduct);
         }
 
         [HttpPut(Name = "updateProduct")]
-        public Task<Product> Put([FromBody] Product updateProduct)
+        public Task<ProductModel> Put([FromBody] ProductModel updateProduct)
         {
-            return UpdateProduct.Update(updateProduct);
+            return _productService.Update(updateProduct);
         }
 
         [HttpDelete(Name = "id")]
         public Task Delete([FromQuery] int id)
         {
-            return DeleteProduct.Delete(id);
+            return _productService.Delete(id);
         }
     }
 }

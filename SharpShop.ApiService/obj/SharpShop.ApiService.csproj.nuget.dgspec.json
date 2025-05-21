@@ -35,6 +35,9 @@
               "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
                 "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj"
               },
+              "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj"
+              },
               "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
                 "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
               },
@@ -237,6 +240,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.5, )"
             }
           },
           "imports": [

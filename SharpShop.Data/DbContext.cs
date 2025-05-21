@@ -4,7 +4,7 @@ using SharpShop.Models.Base;
 
 public class SharpShopContext : DbContext
 {
-    public DbSet<Product> Products { get; set; }
+    public DbSet<ProductModel> Products { get; set; }
 
     public string DbPath { get; }
 

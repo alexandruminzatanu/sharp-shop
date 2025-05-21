@@ -1,14 +1,15 @@
-var builder = WebApplication.CreateBuilder(args);
+using SharpShop.Data;
+using SharpShop.Business;
 
-// Add service defaults & Aspire client integrations.
-builder.AddServiceDefaults();
-
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);  
+builder.AddServiceDefaults(); 
 builder.Services.AddProblemDetails();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
-builder.Services.AddControllers(); 
+builder.Services.AddControllers();
+builder.Services.AddRepositoryDependencies();
+builder.Services.AddServiceDependencies(); 
 var app = builder.Build();
 app.UseExceptionHandler();
 app.MapControllers();

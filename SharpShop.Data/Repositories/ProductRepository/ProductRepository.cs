@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SharpShop.Data.Repositories.ProductRepository
 {
-    internal class ProductRepository: IProductReposity
+    internal class ProductRepository: IProductRepository
     {
         public async Task Delete(int productId)
         {
@@ -26,7 +26,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
 
             }
         }
-        public async Task<Product> Get(int productId)
+        public async Task<ProductModel> Get(int productId)
         {
             using (var context = new SharpShopContext())
             {
@@ -41,7 +41,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
                 }
             }
         }
-        public async Task<Product> Save(Product product)
+        public async Task<ProductModel> Save(ProductModel product)
         {
             using (var context = new SharpShopContext())
             {
@@ -50,7 +50,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
                 return product;
             }
         }
-        public async Task<Product> Update(Product product)
+        public async Task<ProductModel> Update(ProductModel product)
         {
             using (var context = new SharpShopContext())
             {

@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SharpShop.AppHost\SharpShop.AppHost.csproj" />
+    <ProjectReference Include="..\SharpShop.Web\SharpShop.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>

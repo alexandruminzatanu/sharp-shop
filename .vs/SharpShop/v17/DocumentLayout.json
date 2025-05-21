@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Projects\\sharp-shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|c:\\projects\\sharp-shop\\sharpshop.business\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|solutionrelative:sharpshop.business\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|c:\\projects\\sharp-shop\\sharpshop.apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|solutionrelative:sharpshop.apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|c:\\projects\\sharp-shop\\sharpshop.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|solutionrelative:sharpshop.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|c:\\projects\\sharp-shop\\sharpshop.business\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|solutionrelative:sharpshop.business\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\repositories\\productfilesrepository\\deleteproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\repositories\\productfilesrepository\\deleteproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\repositories\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\repositories\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\repositories\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\repositories\\productrepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|c:\\projects\\sharp-shop\\sharpshop.business\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|solutionrelative:sharpshop.business\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +67,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Program.cs",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Program.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Program.cs",
+              "RelativeToolTip": "SharpShop.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:42:55.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteProductRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductFilesRepository\\DeleteProductRepository.cs",
+              "RelativeDocumentMoniker": "SharpShop.Data\\Repositories\\ProductFilesRepository\\DeleteProductRepository.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductFilesRepository\\DeleteProductRepository.cs",
+              "RelativeToolTip": "SharpShop.Data\\Repositories\\ProductFilesRepository\\DeleteProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:35:53.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SharpShop.ApiService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SharpShop.ApiService\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:34:38.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "SharpShop.ApiService\\Program.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Program.cs",
+              "RelativeToolTip": "SharpShop.ApiService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:34:09.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Business\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "SharpShop.Business\\DependencyInjectionExtension.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Business\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "SharpShop.Business\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:34:00.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\ProductService.cs",
+              "RelativeDocumentMoniker": "SharpShop.Business\\Product\\ProductService.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\ProductService.cs",
+              "RelativeToolTip": "SharpShop.Business\\Product\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:33:46.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\IProductService.cs",
+              "RelativeDocumentMoniker": "SharpShop.Business\\Product\\IProductService.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\IProductService.cs",
+              "RelativeToolTip": "SharpShop.Business\\Product\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:33:41.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "SharpShop.Data\\Repositories\\ProductRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductRepository\\IProductRepository.cs",
+              "RelativeToolTip": "SharpShop.Data\\Repositories\\ProductRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:32:32.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "SharpShop.Data\\DbContext.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DbContext.cs",
+              "RelativeToolTip": "SharpShop.Data\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:32:51.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "SharpShop.Data\\DependencyInjectionExtension.cs",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "SharpShop.Data\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:32:53.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductRepository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "SharpShop.Data\\Repositories\\ProductRepository\\ProductRepository.cs",
               "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductRepository\\ProductRepository.cs",
               "RelativeToolTip": "SharpShop.Data\\Repositories\\ProductRepository\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T12:42:50.431Z",
+              "WhenOpened": "2025-05-21T10:32:40.724Z",
               "EditorCaption": ""
             }
           ]
