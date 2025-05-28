@@ -2051,11 +2051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
+      "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
       "projectName": "SharpShop.Web",
-      "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
+      "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
       "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Web\\obj\\",
+      "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2076,8 +2076,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
+            "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
+              "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
             }
           }
         }

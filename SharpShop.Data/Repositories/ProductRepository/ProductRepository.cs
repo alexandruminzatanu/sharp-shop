@@ -1,17 +1,13 @@
-﻿using SharpShop.Models.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Configuration;
+using SharpShop.Models.Base;
 
 namespace SharpShop.Data.Repositories.ProductRepository
 {
-    internal class ProductRepository: IProductRepository
-    {
+    internal class ProductRepository(IConfiguration configuration): IProductRepository
+    { private readonly IConfiguration _configuration = configuration;
         public async Task Delete(int productId)
         {
-            using (var context = new SharpShopContext())
+            using (var context = new SharpShopContext(_configuration))
             {
                 var product = await context.Products.FindAsync(productId);
                 if (product != null)
@@ -28,7 +24,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
         }
         public async Task<ProductModel> Get(int productId)
         {
-            using (var context = new SharpShopContext())
+            using (var context = new SharpShopContext(_configuration))
             {
                 var product = await context.Products.FindAsync(productId);
                 if (product != null)
@@ -43,7 +39,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
         }
         public async Task<ProductModel> Save(ProductModel product)
         {
-            using (var context = new SharpShopContext())
+            using (var context = new SharpShopContext(_configuration))
             {
                 context.Add(product);
                 await context.SaveChangesAsync();
@@ -52,7 +48,7 @@ namespace SharpShop.Data.Repositories.ProductRepository
         }
         public async Task<ProductModel> Update(ProductModel product)
         {
-            using (var context = new SharpShopContext())
+            using (var context = new SharpShopContext(_configuration))
             {
                 var existingProduct = await context.Products.FindAsync(product.Id);
                 if (existingProduct != null)

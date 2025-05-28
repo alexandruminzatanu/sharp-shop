@@ -8,7 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
-builder.Services.AddRepositoryDependencies();
+builder.Services.AddRepositoryDependencies(builder.Configuration);
 builder.Services.AddServiceDependencies(); 
 var app = builder.Build();
 app.UseExceptionHandler();

@@ -240,7 +240,6 @@ C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets\msbuild.bu
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.SharpShop.Web.props
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.SharpShop.Web.props
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpSho.47C747FB.Up2Date
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.dll
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\refint\SharpShop.Web.dll

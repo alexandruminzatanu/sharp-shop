@@ -1,17 +1,21 @@
-﻿// add dependency injection extension method
-
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SharpShop.Data.Repositories.ProductRepository;
 
-// instatiate dependency injection
 namespace SharpShop.Data
 {
     public static class DependencyInjectionExtensions
     {
 
-        public static IServiceCollection AddRepositoryDependencies(this IServiceCollection services)
+        public static IServiceCollection AddRepositoryDependencies(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddTransient<IProductRepository, ProductRepository>();
+            var useDb = configuration.GetValue<bool>("useDb");
+            if (useDb) { services.AddTransient<IProductRepository, ProductRepository>(); }
+            else
+            {
+                services.AddTransient<IProductRepository, ProductFileRepository>();
+            }
+
             return services;
         }
     }

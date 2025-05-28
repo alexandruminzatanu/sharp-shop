@@ -246,7 +246,6 @@ C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\staticwebassets\msb
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.SharpShop.ApiService.props
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.SharpShop.ApiService.props
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\SharpSho.5C04C156.Up2Date
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\SharpShop.ApiService.dll
 C:\Projects\sharp-shop\SharpShop.ApiService\obj\Debug\net9.0\refint\SharpShop.ApiService.dll

@@ -1,21 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using SharpShop.Models.Base;
 
 
-public class SharpShopContext : DbContext
-{
+public class SharpShopContext(IConfiguration configuration) : DbContext
+{   private readonly IConfiguration _configuration = configuration;
     public DbSet<ProductModel> Products { get; set; }
-
-    public string DbPath { get; }
-
-    public SharpShopContext()
-    {
-        
-        DbPath = "Server=D6MJY74\\SQLEXPRESS;Database=SharpShop;Trusted_Connection=True;User Id=sa;TrustServerCertificate=True";
-    }
-
-    // The following configures EF to create a Sqlite database file in the
-    // special "local" folder for your platform.
+ 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlServer($"{DbPath}");
+        => options.UseSqlServer($"{_configuration.GetValue<string>("DbPath")}");
 }

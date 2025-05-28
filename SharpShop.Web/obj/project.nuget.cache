@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vp3EbTCqpwM=",
+  "dgSpecHash": "tkn1pgvpLDE=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
+  "projectFilePath": "c:\\Projects\\sharp-shop\\SharpShop.Web\\SharpShop.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMinzata\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\9.3.0\\microsoft.extensions.ambientmetadata.application.9.3.0.nupkg.sha512",
     "C:\\Users\\AMinzata\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\9.3.0\\microsoft.extensions.compliance.abstractions.9.3.0.nupkg.sha512",
