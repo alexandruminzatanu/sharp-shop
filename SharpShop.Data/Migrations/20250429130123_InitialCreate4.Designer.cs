@@ -4,12 +4,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using SharpShop.Data.SQLContext;
 
 #nullable disable
 
 namespace SharpShop.Data.Migrations
 {
-    [DbContext(typeof(SharpShopContext))]
+    [DbContext(typeof(SharpShopSQLContext))]
     [Migration("20250429130123_InitialCreate4")]
     partial class InitialCreate4
     {

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Projects\\sharp-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|c:\\projects\\sharp-shop\\sharpshop.apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7532132-3EE5-6405-B7F5-60AD02F6046E}|SharpShop.ApiService\\SharpShop.ApiService.csproj|solutionrelative:sharpshop.apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\productmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\productmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|c:\\projects\\sharp-shop\\sharpshop.business\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|solutionrelative:sharpshop.business\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|c:\\projects\\sharp-shop\\sharpshop.business\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{311672EC-EF9D-4493-BFBB-050BF857C031}|SharpShop.Business\\SharpShop.Business.csproj|solutionrelative:sharpshop.business\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\repositories\\productfilesrepository\\postproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\repositories\\productfilesrepository\\postproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|c:\\projects\\sharp-shop\\sharpshop.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C87DB1EC-1206-47E8-BA5B-6E67FD4D78A6}|SharpShop.Data\\SharpShop.Data.csproj|solutionrelative:sharpshop.data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|c:\\projects\\sharp-shop\\sharpshop.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1C2984A-3F43-283A-0AAB-DCC03D9A991A}|SharpShop.Web\\SharpShop.Web.csproj|solutionrelative:sharpshop.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,68 +50,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\IProductService.cs",
-              "RelativeDocumentMoniker": "SharpShop.Business\\Product\\IProductService.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\IProductService.cs",
-              "RelativeToolTip": "SharpShop.Business\\Product\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:43:11.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\ProductService.cs",
-              "RelativeDocumentMoniker": "SharpShop.Business\\Product\\ProductService.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Business\\Product\\ProductService.cs",
-              "RelativeToolTip": "SharpShop.Business\\Product\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:40:32.784Z",
-              "EditorCaption": ""
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T12:08:46.335Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SharpShop.ApiService\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SharpShop.ApiService\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:32:58.435Z",
+              "Title": "ProductModal.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\ProductModal.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\ProductModal.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\ProductModal.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\ProductModal.razor",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T12:13:23.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PostProductRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductFilesRepository\\PostProductRepository.cs",
-              "RelativeDocumentMoniker": "SharpShop.Data\\Repositories\\ProductFilesRepository\\PostProductRepository.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\Repositories\\ProductFilesRepository\\PostProductRepository.cs",
-              "RelativeToolTip": "SharpShop.Data\\Repositories\\ProductFilesRepository\\PostProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:32:22.317Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "Products.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\Pages\\Products.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\Pages\\Products.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T12:06:58.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DbContext.cs",
-              "RelativeDocumentMoniker": "SharpShop.Data\\DbContext.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Data\\DbContext.cs",
-              "RelativeToolTip": "SharpShop.Data\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:29:11.065Z",
-              "EditorCaption": ""
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T11:52:40.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T11:51:08.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\App.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T11:46:35.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "SharpShop.Web\\Components\\Routes.razor",
+              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Web\\Components\\Routes.razor",
+              "RelativeToolTip": "SharpShop.Web\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T11:46:28.875Z"
             }
           ]
         }

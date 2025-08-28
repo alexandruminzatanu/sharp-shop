@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using SharpShop.Business.Product;
+using SharpShop.Business.Products;
 
-// instatiate dependency injection
 namespace SharpShop.Business
 {
     public static class DependencyInjectionExtensions
@@ -9,7 +8,7 @@ namespace SharpShop.Business
 
         public static IServiceCollection AddServiceDependencies(this IServiceCollection services)
         {
-            services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IProductsService, ProductsService>();
             return services;
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4b809d274d13674ed4c9bb4c484034aa1d72d96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3897ccd9f6ff8cdd73e5e432ffde64a31489576f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

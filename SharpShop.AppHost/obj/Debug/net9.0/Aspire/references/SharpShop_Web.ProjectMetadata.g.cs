@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class SharpShop_Web : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """c:\Projects\sharp-shop\SharpShop.Web\SharpShop.Web.csproj""";
+    public string ProjectPath => """C:\Projects\sharp-shop\SharpShop.Web\SharpShop.Web.csproj""";
 }

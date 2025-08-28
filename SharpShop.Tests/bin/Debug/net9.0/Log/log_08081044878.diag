@@ -1,0 +1,27 @@
+2025-08-08T10:31:44.8824956+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.2.1+a0515c5c6f630f1c6063a53a67d3eccf841faa6e
+2025-08-08T10:31:44.8918139+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-08T10:31:44.8928314+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-08T10:31:44.8928355+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 10:31:44.853
+2025-08-08T10:31:44.8943993+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 26820
+2025-08-08T10:31:44.8944198+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 9.0.5
+2025-08-08T10:31:44.8944412+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.5\System.Private.CoreLib.dll
+2025-08-08T10:31:44.8944496+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-08T10:31:44.8944523+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.Tests.dll
+2025-08-08T10:31:44.8945296+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\Log --results-directory C:\Projects\sharp-shop\TestResults --client-port 60547'
+2025-08-08T10:31:44.8956799+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-08T10:31:44.9055527+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-08T10:31:44.9087839+00:00 Microsoft.Testing.Platform.Configurations.JsonConfigurationSource+JsonConfigurationProvider INFORMATION Config file 'C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.Tests.testingplatformconfig.json' not found.
+2025-08-08T10:31:44.9099392+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable:  VSTest mode: False
+2025-08-08T10:31:44.9322537+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TestApplicationOptions.EnableTelemetry: True
+2025-08-08T10:31:44.9329366+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TESTINGPLATFORM_TELEMETRY_OPTOUT environment variable: '0'
+2025-08-08T10:31:44.9329719+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION DOTNET_CLI_TELEMETRY_OPTOUT environment variable: ''
+2025-08-08T10:31:44.9329914+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION TESTINGPLATFORM_NOBANNER environment variable: ''
+2025-08-08T10:31:44.9329939+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION DOTNET_NOLOGO environment variable: ''
+2025-08-08T10:31:44.9329953+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION Telemetry is 'ENABLED'
+2025-08-08T10:31:44.9394657+00:00 Microsoft.Testing.Platform.Telemetry.TelemetryManager INFORMATION Telemetry collector provider: 'Microsoft.Testing.Extensions.Telemetry.AppInsightsProvider'
+2025-08-08T10:31:44.9604689+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Starting server mode
+2025-08-08T10:31:44.9938606+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Received initialize request
+2025-08-08T10:31:44.9941983+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Connection established with 'Microsoft Visual Studio Testing Platform Client', protocol version 1.0.0
+2025-08-08T10:31:45.0093292+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Received testing/runTests request
+2025-08-08T10:31:45.0275180+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION TestFrameworkAdapter UID: 'MSTestExtension' Version: '3.4.3' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-08T10:31:52.5445825+00:00 Microsoft.Testing.Platform.Hosts.ServerTestHost INFORMATION Server requested to shutdown

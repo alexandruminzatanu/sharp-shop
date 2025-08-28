@@ -3,12 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using SharpShop.Data.SQLContext;
 
 #nullable disable
 
 namespace SharpShop.Data.Migrations
 {
-    [DbContext(typeof(SharpShopContext))]
+    [DbContext(typeof(SharpShopSQLContext))]
     partial class SharpShopContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

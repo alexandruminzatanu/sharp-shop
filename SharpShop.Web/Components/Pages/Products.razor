@@ -1,0 +1,86 @@
+﻿@page "/products"
+@attribute [StreamRendering(true)]
+@attribute [OutputCache(Duration = 5)]
+
+@inject ProductsApiClient ProductsApi
+
+<PageTitle>Products</PageTitle>
+
+<h1>Products</h1>
+
+<p>This component demonstrates showing data loaded from a backend API service.</p>
+
+<button class="btn btn-primary mb-3" @onclick="OpenAddProductModal">Add Product</button>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Description</td>
+                    <td>@product.Name</td>
+                    <td>
+                        <button class="btn btn-sm btn-secondary" @onclick="() => OpenEditProductModal(product)">Edit</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<ProductModal 
+    Visible="isModalVisible" 
+    Product="selectedProduct" 
+    OnSave="HandleProductSave" 
+    OnCancel="CloseModal" />
+
+@code {
+    private ProductModel[]? products;
+    private bool isModalVisible = false;
+    private ProductModel? selectedProduct;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductsApi.GetProductsAsync();
+    }
+
+    private void OpenAddProductModal()
+    {
+        selectedProduct = new ProductModel(0, "", "", 0, 0);
+        isModalVisible = true;
+    }
+
+    private void OpenEditProductModal(ProductModel product)
+    {
+        // Clone product to avoid editing the table directly
+        selectedProduct = new ProductModel(product.Id, product.Name, product.Description, product.Price, product.Stock);
+        isModalVisible = true;
+    }
+
+    private async Task HandleProductSave(ProductModel product)
+    {
+        // Add or update logic here, e.g. call ProductsApi.AddOrUpdateProductAsync(product)
+        isModalVisible = false;
+        // Reload products after save
+        products = await ProductsApi.GetProductsAsync();
+        StateHasChanged();
+    }
+
+    private void CloseModal()
+    {
+        isModalVisible = false;
+    }
+}

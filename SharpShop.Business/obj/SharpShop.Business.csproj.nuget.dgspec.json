@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {}
+    "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
         "projectName": "SharpShop.Business",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.Business\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -145,6 +145,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "MongoDB.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
