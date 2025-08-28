@@ -1,34 +1,50 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using SharpShop.Data.SQLContext;
 using SharpShop.Models.Base;
 
 namespace SharpShop.Data.Repositories.ProductsRepository;
 
-public class ProductsSQLRepository(IConfiguration configuration) : IProductsRepository
+public class ProductsSQLRepository : IProductsRepository
 {
-    private readonly IConfiguration _configuration = configuration;
+    private readonly IConfiguration _configuration;
+    private readonly ILogger<ProductsSQLRepository> _logger;
+
+    public ProductsSQLRepository(IConfiguration configuration, ILogger<ProductsSQLRepository> logger)
+    {
+        _configuration = configuration;
+        _logger = logger;
+    }
 
     public async Task<IEnumerable<ProductModel>> GetAll(string sortOrder = "asc", string name = "")
     {
+        // Validate input early
+        if (!string.IsNullOrWhiteSpace(sortOrder) && sortOrder.ToLower() is not ("asc" or "desc"))
+        {
+            throw new ArgumentException("Invalid sortOrder. Allowed values are 'asc' or 'desc'.", nameof(sortOrder));
+        }
+
         using var context = new SharpShopSQLContext(_configuration);
         using var transaction = await context.Database.BeginTransactionAsync();
         try
         {
-            var productsQuery = context.Products.AsQueryable();
-                productsQuery = sortOrder?.ToLower() == "desc" ?  productsQuery.OrderByDescending(p => p.Name) :productsQuery.OrderBy(p => p.Name);
-            if (!string.IsNullOrEmpty(name))
+            var query = context.Products.AsQueryable();
+            query = (sortOrder?.ToLower() == "desc") ? query.OrderByDescending(p => p.Name) : query.OrderBy(p => p.Name);
+
+            if (!string.IsNullOrWhiteSpace(name))
             {
-                productsQuery = productsQuery.Where(p => p.Name.Contains(name));
+                query = query.Where(p => p.Name.Contains(name));
             }
 
-            var products = await productsQuery.ToListAsync();
+            var products = await query.ToListAsync();
             await transaction.CommitAsync();
             return products;
         }
-        catch
+        catch (Exception ex)
         {
             await transaction.RollbackAsync();
+            _logger.LogError(ex, "Failed to get products. sortOrder={SortOrder}, nameFilter={Name}", sortOrder, name);
             throw;
         }
     }
@@ -45,15 +61,20 @@ public class ProductsSQLRepository(IConfiguration configuration) : IProductsRepo
                 await transaction.CommitAsync();
                 return product;
             }
-            else
-            {
-                await transaction.RollbackAsync();
-                throw new Exception("Product not found");
-            }
+
+            await transaction.RollbackAsync();
+            _logger.LogWarning("Product not found. id={ProductId}", productId);
+            throw new KeyNotFoundException($"Product with id {productId} not found");
         }
-        catch
+        catch (KeyNotFoundException)
+        {
+            // Already logged; rethrow specific not-found exception
+            throw;
+        }
+        catch (Exception ex)
         {
             await transaction.RollbackAsync();
+            _logger.LogError(ex, "Failed to get product. id={ProductId}", productId);
             throw;
         }
     }
@@ -69,10 +90,17 @@ public class ProductsSQLRepository(IConfiguration configuration) : IProductsRepo
             await transaction.CommitAsync();
             return product;
         }
-        catch
+        catch (DbUpdateException ex)
         {
             await transaction.RollbackAsync();
+            _logger.LogError(ex, "Database update error while saving product {@Product}", product);
             throw;
+        }
+        catch (Exception ex)
+        {
+            await transaction.RollbackAsync();
+            _logger.LogError(ex, "Unexpected error while saving product {@Product}", product);
+            throw new DbUpdateException("Failed to save product.", ex);
         }
     }
 
@@ -83,26 +111,44 @@ public class ProductsSQLRepository(IConfiguration configuration) : IProductsRepo
         try
         {
             var existingProduct = await context.Products.FindAsync(product.Id);
-            if (existingProduct != null)
-            {
-                existingProduct.Name = product.Name;
-                existingProduct.Description = product.Description;
-                existingProduct.Price = product.Price;
-                existingProduct.Stock = product.Stock;
-                await context.SaveChangesAsync();
-                await transaction.CommitAsync();
-                return existingProduct;
-            }
-            else
+            if (existingProduct == null)
             {
                 await transaction.RollbackAsync();
-                throw new Exception("Product not found");
+                _logger.LogWarning("Product not found for update. id={ProductId}", product.Id);
+                throw new KeyNotFoundException($"Product with id {product.Id} not found");
             }
+
+            existingProduct.Name = product.Name;
+            existingProduct.Description = product.Description;
+            existingProduct.Price = product.Price;
+            existingProduct.Stock = product.Stock;
+
+            await context.SaveChangesAsync();
+            await transaction.CommitAsync();
+            return existingProduct;
         }
-        catch
+        catch (KeyNotFoundException)
+        {
+            // Already logged; rethrow specific not-found exception
+            throw;
+        }
+        catch (DbUpdateConcurrencyException ex)
         {
             await transaction.RollbackAsync();
+            _logger.LogError(ex, "Concurrency error while updating product id={ProductId}", product.Id);
             throw;
+        }
+        catch (DbUpdateException ex)
+        {
+            await transaction.RollbackAsync();
+            _logger.LogError(ex, "Database update error while updating product id={ProductId}", product.Id);
+            throw;
+        }
+        catch (Exception ex)
+        {
+            await transaction.RollbackAsync();
+            _logger.LogError(ex, "Unexpected error while updating product id={ProductId}", product.Id);
+            throw new DbUpdateException("Failed to update product.", ex);
         }
     }
 
@@ -113,22 +159,33 @@ public class ProductsSQLRepository(IConfiguration configuration) : IProductsRepo
         try
         {
             var product = await context.Products.FindAsync(productId);
-            if (product != null)
-            {
-                context.Products.Remove(product);
-                await context.SaveChangesAsync();
-                await transaction.CommitAsync();
-            }
-            else
+            if (product == null)
             {
                 await transaction.RollbackAsync();
-                throw new Exception("Product not found");
+                _logger.LogWarning("Product not found for delete. id={ProductId}", productId);
+                throw new KeyNotFoundException($"Product with id {productId} not found");
             }
+
+            context.Products.Remove(product);
+            await context.SaveChangesAsync();
+            await transaction.CommitAsync();
         }
-        catch
+        catch (KeyNotFoundException)
+        {
+            // Already logged; rethrow specific not-found exception
+            throw;
+        }
+        catch (DbUpdateException ex)
         {
             await transaction.RollbackAsync();
+            _logger.LogError(ex, "Database update error while deleting product id={ProductId}", productId);
             throw;
+        }
+        catch (Exception ex)
+        {
+            await transaction.RollbackAsync();
+            _logger.LogError(ex, "Unexpected error while deleting product id={ProductId}", productId);
+            throw new DbUpdateException("Failed to delete product.", ex);
         }
     }
 }

@@ -9,6 +9,10 @@ internal class ProductsService(IProductsRepository productsRepository) : IProduc
 
     public Task<IEnumerable<ProductModel>> GetAll(string sortOrder = "asc", string name = "")
     {
+        sortOrder = (sortOrder ?? "asc").Trim().ToLowerInvariant();
+        sortOrder = sortOrder == "desc" ? "desc" : "asc";
+        name = name?.Trim() ?? string.Empty;
+
         return _productsRepository.GetAll(sortOrder, name);
     }
 

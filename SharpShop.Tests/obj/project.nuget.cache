@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f+nQNbst+Zs=",
+  "dgSpecHash": "H2T9OYLG068=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\sharp-shop\\SharpShop.Tests\\SharpShop.Tests.csproj",
+  "projectFilePath": "c:\\Projects\\sharp-shop\\SharpShop.Tests\\SharpShop.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AMinzata\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.1.0\\aspire.dashboard.sdk.win-x64.9.1.0.nupkg.sha512",
     "C:\\Users\\AMinzata\\.nuget\\packages\\aspire.hosting\\9.1.0\\aspire.hosting.9.1.0.nupkg.sha512",
