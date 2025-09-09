@@ -1,8 +1,8 @@
 using SharpShop.Data;
 using SharpShop.Business;
 using SharpShop.Models;
-using SharpShop.Data.MongoContext;
 using Microsoft.EntityFrameworkCore;
+using SharpShop.Data.SQLContext;
 
 var builder = WebApplication.CreateBuilder(args);
 var mongoDBSettings = builder.Configuration.GetSection("MongoDBSettings").Get<MongoDBSettings>();
@@ -16,12 +16,12 @@ builder.Services.AddControllers();
 builder.Services.AddRepositoryDependencies(builder.Configuration);
 builder.Services.AddServiceDependencies(); 
 builder.Services.Configure<MongoDBSettings>(builder.Configuration.GetSection("MongoDBSettings"));
-if (mongoDBSettings == null)
-{
-    throw new InvalidOperationException("MongoDBSettings configuration section is missing or invalid.");
-}
-builder.Services.AddDbContext<SharpShopMongoContext>(options =>
-    options.UseMongoDB(mongoDBSettings.AtlasURI ?? "", mongoDBSettings.DatabaseName ?? ""));
+// if (mongoDBSettings == null)
+// {
+//     throw new InvalidOperationException("MongoDBSettings configuration section is missing or invalid.");
+// }
+// builder.Services.AddDbContext<SharpShopMongoContext>(options =>
+//     options.UseMongoDB(mongoDBSettings.AtlasURI ?? "", mongoDBSettings.DatabaseName ?? ""));
 
 
 var app = builder.Build();

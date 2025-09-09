@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharpShop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00591403fbc62a0c8e46f0dd85c3de1a76befaa3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f90df7d4804e57cd20d5ff61a9292fd7cfd958e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharpShop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharpShop.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

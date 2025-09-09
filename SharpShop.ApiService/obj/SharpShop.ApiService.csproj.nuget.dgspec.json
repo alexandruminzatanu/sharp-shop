@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj": {}
+    "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj",
         "projectName": "SharpShop.ApiService",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\SharpShop.ApiService.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.ApiService\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.ApiService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,17 +32,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj"
               },
-              "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj"
               },
-              "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
               },
-              "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj"
               }
             }
           }
@@ -66,6 +66,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -103,14 +109,14 @@
         }
       }
     },
-    "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
         "projectName": "SharpShop.Business",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\SharpShop.Business.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.Business\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,11 +137,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj"
               },
-              "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
               }
             }
           }
@@ -175,14 +181,14 @@
         }
       }
     },
-    "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj",
         "projectName": "SharpShop.Data",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Data\\SharpShop.Data.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.Data\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -203,8 +209,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
-                "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
+              "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
+                "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj"
               }
             }
           }
@@ -278,14 +284,14 @@
         }
       }
     },
-    "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj",
         "projectName": "SharpShop.Models",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\SharpShop.Models.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.Models\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -343,14 +349,14 @@
         }
       }
     },
-    "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
+    "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj",
         "projectName": "SharpShop.ServiceDefaults",
-        "projectPath": "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj",
+        "projectPath": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\SharpShop.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\AMinzata\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Projects\\sharp-shop\\SharpShop.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

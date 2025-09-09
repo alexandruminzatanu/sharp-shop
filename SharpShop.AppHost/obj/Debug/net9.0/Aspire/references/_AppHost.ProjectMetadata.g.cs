@@ -8,5 +8,5 @@ namespace Projects;
 public class SharpShop_AppHost
 {
     private SharpShop_AppHost() { }
-    public static string ProjectPath => """c:\Projects\sharp-shop\SharpShop.AppHost""";
+    public static string ProjectPath => """C:\Projects\sharp-shop\SharpShop.AppHost""";
 }

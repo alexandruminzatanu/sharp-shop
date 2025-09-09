@@ -13,10 +13,10 @@ public static class DependencyInjectionExtensions
         {
             services.AddTransient<IProductsRepository, ProductsSQLRepository>();
         }
-        else if (useDb == "Mongo")
-        {
-            services.AddTransient<IProductsRepository, ProductsMongoRepository>();
-        }
+        // else if (useDb == "Mongo")
+        // {
+        //     services.AddTransient<IProductsRepository, ProductsMongoRepository>();
+        // }
         else if (useDb == "File")
         {
             services.AddTransient<IProductsRepository, ProductsFileRepository>();
