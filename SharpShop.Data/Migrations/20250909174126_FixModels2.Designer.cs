@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SharpShop.Data.SQLContext;
 
@@ -10,9 +11,11 @@ using SharpShop.Data.SQLContext;
 namespace SharpShop.Data.Migrations
 {
     [DbContext(typeof(SharpShopSQLContext))]
-    partial class SharpShopSQLContextModelSnapshot : ModelSnapshot
+    [Migration("20250909174126_FixModels2")]
+    partial class FixModels2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -20,28 +23,6 @@ namespace SharpShop.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("OrderModelProductModel", b =>
-                {
-                    b.Property<int>("OrdersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("OrdersId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("OrderModelProductModel");
-
-                    b.HasData(
-                        new
-                        {
-                            OrdersId = 1,
-                            ProductsId = 1
-                        });
-                });
 
             modelBuilder.Entity("SharpShop.Models.Base.CategoryModel", b =>
                 {
@@ -123,6 +104,9 @@ namespace SharpShop.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -133,6 +117,8 @@ namespace SharpShop.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("OrderId");
+
                     b.ToTable("Products");
 
                     b.HasData(
@@ -142,24 +128,10 @@ namespace SharpShop.Data.Migrations
                             CategoryId = 1,
                             Description = "High-performance laptop",
                             Name = "Laptop",
+                            OrderId = 1,
                             Price = 999.99m,
                             Stock = 10
                         });
-                });
-
-            modelBuilder.Entity("OrderModelProductModel", b =>
-                {
-                    b.HasOne("SharpShop.Models.Base.OrderModel", null)
-                        .WithMany()
-                        .HasForeignKey("OrdersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SharpShop.Models.Base.ProductModel", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("SharpShop.Models.Base.ProductModel", b =>
@@ -168,10 +140,22 @@ namespace SharpShop.Data.Migrations
                         .WithMany("Products")
                         .HasForeignKey("CategoryId");
 
+                    b.HasOne("SharpShop.Models.Base.OrderModel", "Order")
+                        .WithMany("Products")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
                     b.Navigation("Category");
+
+                    b.Navigation("Order");
                 });
 
             modelBuilder.Entity("SharpShop.Models.Base.CategoryModel", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("SharpShop.Models.Base.OrderModel", b =>
                 {
                     b.Navigation("Products");
                 });

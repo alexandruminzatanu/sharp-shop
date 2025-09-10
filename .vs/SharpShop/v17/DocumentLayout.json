@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\sharp-shop\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|c:\\projects\\sharp-shop\\sharpshop.models\\base\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|solutionrelative:sharpshop.models\\base\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|c:\\projects\\sharp-shop\\sharpshop.models\\base\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|solutionrelative:sharpshop.models\\base\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|c:\\projects\\sharp-shop\\sharpshop.models\\base\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A784A048-1366-4A64-AF66-264ADCF2F589}|SharpShop.Models\\SharpShop.Models.csproj|solutionrelative:sharpshop.models\\base\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\ProductModel.cs",
-              "RelativeDocumentMoniker": "SharpShop.Models\\Base\\ProductModel.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\ProductModel.cs",
-              "RelativeToolTip": "SharpShop.Models\\Base\\ProductModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:31:35.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderModel.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\OrderModel.cs",
-              "RelativeDocumentMoniker": "SharpShop.Models\\Base\\OrderModel.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\OrderModel.cs",
-              "RelativeToolTip": "SharpShop.Models\\Base\\OrderModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:31:31.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryModel.cs",
-              "DocumentMoniker": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\CategoryModel.cs",
-              "RelativeDocumentMoniker": "SharpShop.Models\\Base\\CategoryModel.cs",
-              "ToolTip": "C:\\Projects\\sharp-shop\\SharpShop.Models\\Base\\CategoryModel.cs",
-              "RelativeToolTip": "SharpShop.Models\\Base\\CategoryModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T13:31:26.133Z",
-              "EditorCaption": ""
             }
           ]
         }

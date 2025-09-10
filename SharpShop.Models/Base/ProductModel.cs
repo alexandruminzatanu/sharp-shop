@@ -5,7 +5,6 @@ public class ProductModel
 {
     public ProductModel() { }
 
-    // Convenience constructor retained (categoryId optional) for existing test code.
     public ProductModel(int id, string name, string description, decimal price, int stock, int categoryId = 0)
     {
         Id = id;
@@ -25,5 +24,5 @@ public class ProductModel
     // Foreign key scalar for Category navigation.
     public int? CategoryId { get; set; }
     public virtual CategoryModel? Category { get; set; }
-    public virtual ICollection<OrderModel> Orders { get; set; } = new List<OrderModel>();
+
 }
