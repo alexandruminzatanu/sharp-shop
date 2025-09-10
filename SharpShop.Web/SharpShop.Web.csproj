@@ -10,4 +10,15 @@
     <ProjectReference Include="..\SharpShop.ServiceDefaults\SharpShop.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <!-- Include Angular build output if it exists -->
+  <ItemGroup>
+    <Content Include="ClientApp\dist\**\*" CopyToPublishDirectory="PreserveNewest" Condition="Exists('ClientApp\\dist')" />
+  </ItemGroup>
+
+  <Target Name="BuildAngular" BeforeTargets="Build" Condition="Exists('ClientApp\\package.json') and '$(Configuration)' == 'Release'">
+    <Message Importance="high" Text="Building Angular application..." />
+    <Exec WorkingDirectory="ClientApp" Command="npm install" />
+    <Exec WorkingDirectory="ClientApp" Command="npm run build" />
+  </Target>
+
 </Project>

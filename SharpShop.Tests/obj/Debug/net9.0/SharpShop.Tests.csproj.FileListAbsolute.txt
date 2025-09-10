@@ -537,3 +537,7 @@ C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.ServiceDefault
 C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.Web.dll
 C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.Web.pdb
 C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\SharpShop.ServiceDefaults.pdb
+C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\ClientApp\angular.json
+C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\ClientApp\package.json
+C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\ClientApp\proxy.conf.json
+C:\Projects\sharp-shop\SharpShop.Tests\bin\Debug\net9.0\ClientApp\tsconfig.json

@@ -1,43 +1,66 @@
-using SharpShop.Web;
-using SharpShop.Web.Components;
+using System.IO;
+using Microsoft.Extensions.FileProviders;
+
+// Minimal host that serves an Angular SPA instead of a Blazor application.
+// The Angular project is scaffolded under ClientApp. In development you run `npm start` there.
+// In production you build the Angular app (output to ClientApp/dist) and the ASP.NET Core app
+// serves the static files and falls back to index.html for client-side routing.
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add service defaults & Aspire client integrations.
+// Service defaults (Aspire integration etc.)
 builder.AddServiceDefaults();
 
-// Add services to the container.
-builder.Services.AddRazorComponents()
-    .AddInteractiveServerComponents();
+// CORS so the Angular dev server (http://localhost:4200) can call downstream APIs directly.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AngularDev", policy =>
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod());
+});
 
-builder.Services.AddOutputCache();
-
-builder.Services.AddHttpClient<ProductsApiClient>(client =>
-    {
-        // This URL uses "https+http://" to indicate HTTPS is preferred over HTTP.
-        // Learn more about service discovery scheme resolution at https://aka.ms/dotnet/sdschemes.
-        client.BaseAddress = new("https+http://apiservice");
-    });
+// (Optional) Add backend proxy endpoints or typed clients here if needed.
 
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error", createScopeForErrors: true);
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AngularDev");
+app.UseStaticFiles(); // Serves wwwroot (you can copy Angular build here or serve from ClientApp/dist below)
 
-app.UseAntiforgery();
+// Serve Angular dist if it exists (production build scenario)
+var angularDist = Path.Combine(app.Environment.ContentRootPath, "ClientApp", "dist");
+if (Directory.Exists(angularDist))
+{
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(angularDist)
+    });
 
-app.UseOutputCache();
+    // Fallback for client-side routes -> index.html inside dist
+    app.MapFallback(async context =>
+    {
+        var indexFile = Path.Combine(angularDist, "index.html");
+        if (File.Exists(indexFile))
+        {
+            context.Response.ContentType = "text/html";
+            await context.Response.SendFileAsync(indexFile);
+        }
+        else
+        {
+            context.Response.StatusCode = StatusCodes.Status404NotFound;
+        }
+    });
+}
 
-app.MapStaticAssets();
-
-app.MapRazorComponents<App>()
-    .AddInteractiveServerRenderMode();
+// Simple health endpoint
+app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 
 app.MapDefaultEndpoints();
 

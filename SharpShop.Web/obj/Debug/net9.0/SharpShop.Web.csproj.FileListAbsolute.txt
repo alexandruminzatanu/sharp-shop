@@ -180,10 +180,7 @@ C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.AssemblyInfo
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.csproj.CoreCompileInputs.cache
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.sourcelink.json
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\scopedcss\bundle\SharpShop.Web.styles.css
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\scopedcss\projectbundle\SharpShop.Web.bundle.scp.css
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\xok3grwji8-vjcm5h3v4x.gz
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\4t0s0yt73h-t1cqhe9u97.gz
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\blymbh2b1j-c2jlpeoesf.gz
@@ -229,8 +226,6 @@ C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\biwr6afwkm-wruj
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\04vnxx3d0j-atspcnoh2m.gz
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\9lp9w9goov-7890edrbwr.gz
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\rk71bka5yz-umms7gp2t3.gz
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\jnd0ep3at5-00ccire3nk.gz
-C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\compressed\fv5ethtqt8-00ccire3nk.gz
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets.build.json
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets.development.json
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -246,3 +241,8 @@ C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\refint\SharpShop.Web.dll
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.pdb
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\SharpShop.Web.genruntimeconfig.cache
 C:\Projects\sharp-shop\SharpShop.Web\obj\Debug\net9.0\ref\SharpShop.Web.dll
+C:\Projects\sharp-shop\SharpShop.Web\bin\Debug\net9.0\ClientApp\angular.json
+C:\Projects\sharp-shop\SharpShop.Web\bin\Debug\net9.0\ClientApp\package.json
+C:\Projects\sharp-shop\SharpShop.Web\bin\Debug\net9.0\ClientApp\proxy.conf.json
+C:\Projects\sharp-shop\SharpShop.Web\bin\Debug\net9.0\ClientApp\tsconfig.json
+c:\Projects\sharp-shop\SharpShop.Web\bin\Debug\net9.0\ClientApp\package-lock.json
